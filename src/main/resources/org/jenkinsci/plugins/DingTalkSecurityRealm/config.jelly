@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form" xmlns:t="/lib/hudson">
+  <f:section title="DingTalk OAuth2 Authentication Plugin">
+    <f:entry title="App Key (Client ID)" field="appKey">
+      <f:textbox/>
+    </f:entry>
+    <f:entry title="App Secret" field="appSecret">
+      <f:password/>
+    </f:entry>
+  </f:section>
+</j:jelly>
